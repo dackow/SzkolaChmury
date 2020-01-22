@@ -53,7 +53,7 @@ serviceAccountEmail="wd-szkola-zad4-service-account@burnished-mark-260111.iam.gs
 ```
 gcloud beta compute instances create $vmName --zone=$vmZone --machine-type=$vmType --service-account=$serviceAccountEmail --tags=http-server,https-server --image=debian-9-stretch-v20191210 --image-project=debian-cloud 
 
-### 4 Sprawdzenie  uprawnień
+### 4 Sprawdzenie uprawnień
 
 Połączenie się do VM i sprwadzenie czy możemy tylko odczytywać z bucketa.
 
