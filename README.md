@@ -1,2 +1,3 @@
 # SzkolaChmury
-- GCP- Droga Architekta
+
+* [Google Cloud Platform – Droga Architekta](./GCP/Architecture)
