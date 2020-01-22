@@ -1,2 +1,2 @@
 # SzkolaChmury
-GCP
+- GCP- Droga Architekta
