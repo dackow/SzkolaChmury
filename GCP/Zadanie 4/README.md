@@ -1,6 +1,6 @@
 * [Zadanie 1](#zadanie-1)
   * [1 Przygotowanie `Cloud Storage`](#1-przygotowanie-cloud-storage)
-  * [2 Utworzenie `Service Account`]
+  * [2 Utworzenie `Service Account`](#2-utworzenie-service-account)
   * [3 Utworzenie VM]
   * [4 Sprawdzenie uprawnień]
   * [5 Usunięcie zasobów]
@@ -22,8 +22,15 @@
 # Zmienne
 bucketName="wd-bucket-zad4"
 bucketLocation="europe-west3"
+
+# Utworzenie bucketa
+gsutil mb -c STANDARD -l $bucketLocation gs://${bucketName}/
+
+# Wysłanie plików do bucketa
+gsutil cp file0* gs://$bucketName/
 ```
 
+### 2 Utworzenie 'Service Account'
 
 # Zadanie 2
 # Zadanie 3
