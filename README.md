@@ -1,3 +1,5 @@
 # SzkolaChmury
 
-* [Google Cloud Platform – Droga Architekta](./GCP/Architecture)
+* [Google Cloud Platform – Droga Architekta](./GCP)
+
+
