@@ -64,6 +64,12 @@ AccessDeniedException: 403 Insufficient Permission
 
 ### 5 Usunięcie zasobów
 
+```
+gcloud compute instances delete $vmName --zone=$vmZone 
+gcloud iam service-accounts delete $serviceAccountEmail
+gsutil -m rm -r gs://${bucketName}/
+rm test*.txt
+```
 
 # Zadanie 2
 # Zadanie 3
